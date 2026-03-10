@@ -1,4 +1,6 @@
-models/
 .rasa/
+models/
+.dist/
 __pycache__/
 *.tar.gz
+*.pyc
