@@ -1,12 +1,10 @@
-FROM rasa/rasa:3.6.20
+FROM rasa/rasa:3.6.0
 
 WORKDIR /app
 
 COPY . /app
 
-USER root
-RUN pip install -r requirements.txt
+RUN rasa train
 
-USER 1001
+CMD ["rasa","run","--enable-api","--cors","*","--port","7860"]
 
-CMD rasa run --enable-api --cors "*" --port 7860
