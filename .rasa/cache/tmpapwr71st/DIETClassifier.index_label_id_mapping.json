@@ -1,0 +1,18 @@
+{
+  "0": "affirm",
+  "1": "bot_challenge",
+  "2": "coach_select",
+  "3": "deny",
+  "4": "goodbye",
+  "5": "greet",
+  "6": "mood_great",
+  "7": "mood_unhappy",
+  "8": "search_train",
+  "9": "seat_recommendation",
+  "10": "start_train_search",
+  "11": "train_number",
+  "12": "wl_number",
+  "13": "wl_prediction",
+  "14": "wl_skip",
+  "15": "wl_train"
+}

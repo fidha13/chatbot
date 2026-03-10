@@ -1,0 +1,5 @@
+rasa
+rasa-sdk
+pandas
+numpy
+scikit-learn
